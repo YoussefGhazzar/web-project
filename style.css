@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  .color{
+    background-color: rgb(0, 0, 0);
+    display:flex ;
+    justify-content:space-between;
+    align-items:center;
+    padding: 50px;
+    object-fit: cover;
+    
+  } .color a{
+    color: #eee5e5;
+  }
+  .links a{
+    color: #f1ebeb;
+    padding: 0 15px;
+    border-radius: 15px;
+  }
+  .links a:hover{
+    background-color: rgb(111, 128, 131);
+  }
+  .links button{
+    background-color:rgb(25, 202, 222);
+    padding: 0 15px;
+    border-radius: 15px;
+    height: 35px;
+  }
+  .links button:hover{
+    background-color:rgb(25, 202, 222);
+  }
+  .button{
+   
+    padding: 15px;
+    border-radius: 15px;
+    width: 100px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   
+  }
+  button input{
+    position: relative;
+    right: 100px;
+  }
+  .style{
+    color: #eee5e5;
+  }.style button{
+    background-color:rgb(25, 202, 222);
+    padding: 0 15px;
+    border-radius: 15px;
+    height: 35px;
+  } 
+
+  .button input{
+    padding: 5px 100px;
+    border-radius: 20px;
+    height: 20px;
+  } .button button{
+    position:absolute;
+   left: 1400px;
+ 
+  } .space h1{
+    margin-top:0px ;
+  }
+  .space span {
+    color: rgb(25, 202, 222);
+  }
+  .space h2 {
+    color: rgb(25, 202, 222);
+    margin-top: 0px;
+  }
+  .offers h3{
+    padding: 0px 20px 0px 0px;
+  } .offers button{
+    display: flex ;
+    background-color:rgb(25, 202, 222);
+    padding: 5px 20px ;
+    border-radius: 15px;
+    height: 25px;
+    align-items: center;
+    
+  }.offers button:hover{
+        background-color:rgb(88, 238, 255);
+
+  }
+    .offers {
+    display: flex;
+    flex-direction:row;
+    gap: 20px;
+    
+  }
+  .offers-color h3  span {
+    background-color: rgba(0, 0, 0, 0.223);
+    border-radius: 15px;
+    padding: 0px 0px 10px 0px ;
+  } .sing-space{
+    background-color: rgb(25, 202, 222);
+    padding: 20px 0px 0px 0px;
+    margin-top: 100px;
+    display:flex ;
+    
+    position: relative;
+    left: 500px;
+    
+    padding: 50px 50px 0px 0px;
+  } 
